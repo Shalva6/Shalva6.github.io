@@ -1,0 +1,38 @@
+.languages {
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.languages .container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 25px auto;
+    gap: 10px;
+}
+
+.languages .stars {
+    display: flex;
+    gap: 3px;
+    margin-right: 10px;
+}
+
+.languages .star {
+    color: #C0C0C0;
+    font-size: 1.3rem;
+}
+
+.languages .star.filled {
+    color: #FFD700;
+}
+
+.languages .language-row {
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,14 @@
+.footer {
+    box-sizing: border-box;
+    align-items: center;
+    padding: 10px 60px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #EAEFEF;
+    box-shadow:
+            0 4px 24px 0 rgba(127, 140, 170, 0.15),
+            0 2px 6px 0 rgba(127, 140, 170, 0.10),
+            0 1px 2px 0 rgba(127, 140, 170, 0.08);
+}

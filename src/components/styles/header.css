@@ -1,0 +1,98 @@
+.header {
+    box-sizing: border-box;
+    align-items: center;
+    padding: 10px 60px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #EAEFEF;
+    box-shadow:
+            0 4px 24px 0 rgba(127, 140, 170, 0.15),
+            0 2px 6px 0 rgba(127, 140, 170, 0.10),
+            0 1px 2px 0 rgba(127, 140, 170, 0.08);
+}
+
+.header .name {
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+}
+
+.header .avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 1px solid #7F8CAA;
+    box-shadow: 0 2px 12px rgba(127, 140, 170, 0.18);
+    transition: all 0.3s;
+}
+
+.header .description {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.header .avatar:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 24px rgba(127, 140, 170, 0.25);
+}
+
+.header .facebook {
+    color: #1877F3;
+}
+
+.header .facebook:hover {
+    background-color: #1877F3;
+    color: white;
+}
+
+.header .linkedIn {
+    color: #0A66C2;
+}
+
+.header .linkedIn:hover {
+    background-color: #0A66C2;
+    color: white;
+}
+
+.header .github {
+    color: #171515;
+}
+
+.header .github:hover {
+    background-color: #171515;
+    color: white;
+}
+
+.header .mail {
+    color: #EA4335;
+    width: 50px;
+}
+
+.header .mail:hover {
+    background-color: #EA4335;
+    color: white;
+}
+
+.header .icon-circle {
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.header .icon-square {
+    border-radius: 10%;
+    padding: 1px;
+}
+
+.header .icon-circle, .header .icon-square {
+    transition: all 0.3s;
+}
+
+.header .socials {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}

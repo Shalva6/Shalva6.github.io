@@ -1,0 +1,13 @@
+.about-me {
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.about-me .description {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    margin: 20px 0;
+}
